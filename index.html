@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-  <title>Quick Add</title>
+
+  <!-- <title>Quick Add</title>
 </head>
 <body>
  <h1>Family Members</h1>
@@ -109,8 +115,8 @@
     </table>
   </div>
 
-  <!-- adding checkboxes and radios, never done that before -->
-  <div id="indent">
+  <! adding checkboxes and radios, never done that before -->
+ <!--  <div id="indent">
     <label class="checkbox-inline">
       <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
     </label>
@@ -131,20 +137,70 @@
     <label class="radio-inline">
       <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
     </label>
-  </div>
+  </div> -->
 
   <!-- need to figure out how to indent the buttons to the center of the page -->
-  <div>
+  <!-- <div>
     <button type="button" class="btn btn-default one">Default</button>
     <button type="button" class="btn btn-primary one">Primary</button>
     <button type="button" class="btn btn-success one">Success</button>
     <button type="button" class="btn btn-info one">Info</button>
     <button type="button" class="btn btn-warning one">Warning</button>
     <button type="button" class="btn btn-danger one">Danger</button>
+  </div> --> <!-- -->
+
+  <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
   </div>
+</div>
+
+<div id="tabs-2">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 img-thumbnail">
+            <img class="img-responsive" src="http://lorempixel.com/800/600/food/1" alt="" />
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 img-thumbnail">
+            <img class="img-responsive" src="http://lorempixel.com/800/600/food/2" alt="" />
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 img-thumbnail">
+            <img class="img-responsive" src="http://lorempixel.com/800/600/food/3" alt="" />
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body"></div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
 
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--   // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 
 </body>
 </html>
